@@ -1,11 +1,16 @@
 {
   "expo": {
     "name": "expense_tracker",
-    "slug": "expense_tracker",
+    "slug": "cashly",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
-    "userInterfaceStyle": "light",
+    "userInterfaceStyle": "dark",
+    "splash": {
+      "image": "./assets/splash-icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#0B141A"
+    },
     "ios": {
       "supportsTablet": true
     },
@@ -20,6 +25,13 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "plugins": [],
+    "extra": {
+      "eas": {
+        "projectId": "3c3609c0-b692-4c3d-9709-b58f2a17e8e2"
+      }
+    },
+    "owner": "cashly"
   }
 }
