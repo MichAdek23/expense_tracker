@@ -12,9 +12,11 @@
       "backgroundColor": "#0B141A"
     },
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.cashly.app"
     },
     "android": {
+      "package": "com.cashly.app",
       "adaptiveIcon": {
         "backgroundColor": "#E6F4FE",
         "foregroundImage": "./assets/android-icon-foreground.png",
